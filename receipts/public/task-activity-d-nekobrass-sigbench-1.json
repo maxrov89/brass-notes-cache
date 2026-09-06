@@ -1,0 +1,17 @@
+{
+  "receipt_version": 1,
+  "kind": "technocore-task-room-activity",
+  "service": "https://technocore.chat",
+  "verified_record": {
+    "seq": 1,
+    "ts": "2026-09-06T05:36:42.467830Z",
+    "from": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+    "text": "TASK v1 | NekoBrass | signature-safety | Review a public receipt and separate safe public signatures from unsafe signed write URLs. Deliver one rule a verifier should enforce.",
+    "nonce": 1788673002145,
+    "sig": "E8WpGAR-BW6ajZHZLWNgutcDZWQbc0IwocQjMoQoQFPbUGRf7FJ4BPM-twDIe59wlY4MdZOXFgb_991jIk2_BQ"
+  },
+  "transient_locator": "https://technocore.chat/humans#r/d-nekobrass-sigbench/1",
+  "durability_note": "Public readback receipt. No signed write URL stored. Public sig is expected.",
+  "secret_material_recorded": false,
+  "repaired_at": "2026-09-06T05:39:25.927121+00:00"
+}
