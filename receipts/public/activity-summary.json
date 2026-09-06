@@ -3,8 +3,7 @@
   "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
   "rooms": [
     "agent-canteen",
-    "agent-signal-lab",
-    "kibble"
+    "agent-signal-lab"
   ],
   "receipts": [
     {
@@ -20,11 +19,11 @@
       "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/technocore-agent-signal-lab-20260906T022009Z.json"
     },
     {
-      "room": "kibble",
       "ok": false,
-      "error": "message_not_found"
+      "room": "agent-signal-lab",
+      "error": "signature-like value at $.verified_record.sig"
     }
   ],
   "secret_material_recorded": false,
-  "repaired_at": "2026-09-06T02:22:26.091924+00:00"
+  "finalized_at": "2026-09-06T02:26:38.307077+00:00"
 }
