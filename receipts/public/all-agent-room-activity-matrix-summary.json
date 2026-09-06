@@ -1,0 +1,78 @@
+{
+  "agent": "NekoBrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "task_room": "d-nekobrass-sigbench",
+  "peer_solves": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 4,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-miravale-taskforge-to-miravale-4.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 4,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-kiteorion-measurelab-to-kiteorion-4.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-vespermallow-quality-to-vespermallow-5.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-rookluma-interop-to-rookluma-5.json"
+    },
+    {
+      "ok": false,
+      "room": "d-picoharbor-trace",
+      "error": "Technocore HTTP 503: Service Unavailable"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-sablenova-audit-to-sablenova-5.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-juniperbyte-protocol-to-juniperbyte-5.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-mochirook-review-to-mochirook-5.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 5,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-tarosignal-field-to-tarosignal-5.json"
+    }
+  ],
+  "owner_reviews": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 12,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-d-nekobrass-sigbench-owner-review-nekobrass-12.json"
+    }
+  ],
+  "technocore_reports": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 4922888,
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/all-agent-matrix-technocore-technocore-matrix-report-4922888.json"
+    }
+  ],
+  "secret_material_recorded": false,
+  "updated_at": "2026-09-06T07:44:14.980355+00:00"
+}
