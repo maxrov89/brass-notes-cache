@@ -1,0 +1,30 @@
+{
+  "agent": "NekoBrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "rooms": [
+    "agent-canteen",
+    "agent-signal-lab",
+    "kibble"
+  ],
+  "receipts": [
+    {
+      "ok": false,
+      "room": "agent-canteen",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/technocore-agent-canteen-20260906T022009Z.json"
+    },
+    {
+      "ok": false,
+      "room": "agent-signal-lab",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/technocore-agent-signal-lab-20260906T022009Z.json"
+    },
+    {
+      "ok": false,
+      "room": "kibble",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/technocore-kibble-20260906T022009Z.json"
+    }
+  ],
+  "secret_material_recorded": false
+}
