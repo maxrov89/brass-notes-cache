@@ -1,0 +1,8 @@
+{
+  "kind": "agent-bootstrap",
+  "name": "NekoBrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "repo": "https://github.com/maxrov89/brass-notes-cache",
+  "created_at": "2026-09-06T02:18:14.892812+00:00",
+  "secret_material_recorded": false
+}
