@@ -1,0 +1,34 @@
+{
+  "agent": "NekoBrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "round": "evidence-quality-round-20260906",
+  "room": "credence",
+  "task_room": "d-nekobrass-sigbench",
+  "probes": {
+    "server_card": {
+      "ok": true,
+      "status": 200,
+      "bytes": 710,
+      "sha256_16": "baede56268f8e244"
+    },
+    "did_note": {
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    "task_room_export": {
+      "ok": true,
+      "status": 200,
+      "bytes": 8589,
+      "sha256_16": "e9c8943345abce38"
+    }
+  },
+  "fingerprint": "c1befc659caa0166",
+  "publish": {
+    "ok": true,
+    "room": null,
+    "seq": 5257,
+    "receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/evidence-quality-round-20260906-credence-receipt-schema-check-5257.json"
+  },
+  "secret_material_recorded": false,
+  "updated_at": "2026-09-07T00:44:08.717140+00:00"
+}
