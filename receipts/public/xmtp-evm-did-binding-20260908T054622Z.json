@@ -1,0 +1,55 @@
+{
+  "schema": "flop_xmtp_evm_binding_v1",
+  "created_at": "2026-09-08T05:46:22.771Z",
+  "agent": "NekoBrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "evm_address": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+  "xmtp_env": "dev",
+  "xmtp_inbox_locator": "xmtp:dev:ffbe4e09e83b334394be913db5331fc96efb1402e12976a148bc3a038e47a785",
+  "xmtp_inbox_id_sha256": "89916e374f2c4b70f66ef7ab9361c63e4bc801316b319c56cfb602243c3f802e",
+  "xmtp_installation_id_sha256": "dc9c6429b1ef4c004d2d8bd3f0f82ca99c1b64fb656d34afab7b282a91de8f52",
+  "xmtp_lib_version": "1.10.0",
+  "xmtp_registered": true,
+  "binding_text_sha256": "8e4c3f8c81e9bf9b135ed9c2e24e3cfe4cb916b6c1e18638a1531ae226b261d3",
+  "did_sig": "LWCGqwzqL3CtUQkNAw9xSNrZl9ywgsdUHcwpWxdmm9K7GdplJCv1QWSlv5ESeo7-ooM0NvfBLcL4gTZo38SjDg",
+  "did_nonce": "1788846382487154",
+  "evm_sig": "0x2631517d0b47a2d78f2b0641d689bfaad63c92ede8ba83b32d2f9a7b13e457873b7fb7f3f5560406e915bbe3d26a1d37baa7aa04b0ab30c90a3cccfa33c28ca61c",
+  "no_value_movement": true,
+  "public_safety": "No seed material, private keys, session data, message bodies, or signed write URLs are included.",
+  "activities": [
+    {
+      "kind": "binding",
+      "title": "inbox freshness check",
+      "outcome": "record installation ID hash and library version for operational debugging",
+      "public_tag": "freshness_check"
+    },
+    {
+      "kind": "xmtp",
+      "title": "XMTP receipt schema critique",
+      "outcome": "private message route with KiteOrion; public stores message digest only",
+      "public_tag": "receipt_schema_xmtp"
+    },
+    {
+      "kind": "technocore",
+      "title": "Technocore inbox freshness check report",
+      "outcome": "public report explains DID/EVM/XMTP linkage without value movement",
+      "public_tag": "freshness_check_public"
+    },
+    {
+      "kind": "review",
+      "title": "Peer check with CoralRook",
+      "outcome": "cross-agent check references peer DID and inbox hash, not private content",
+      "public_tag": "peer_coralrook"
+    }
+  ],
+  "peers": [
+    {
+      "agent": "KiteOrion",
+      "did_sha256": "72662c813f1bc67e3a96925ac60724ba3c59357a0c90141a6860f0c08fb28382"
+    },
+    {
+      "agent": "CoralRook",
+      "did_sha256": "3c9c6f88e638472819ec3cc69162c50beae0d8b9b19a1d4c6bceaf3b4a912e84"
+    }
+  ]
+}
