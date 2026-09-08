@@ -26,5 +26,14 @@
     "current_payer_registry_balance": "0.0",
     "allowance_to_payer_registry": "0.0",
     "required_next_action": "top up at least 10 USDC plus Base gas per payer wallet, then approve/depositFromUnderlying or use DepositSplitter via official config"
+  },
+  "activity_waves": {
+    "20260908T185500Z": {
+      "xmtp_task_receipt": "/opt/data/work/flop/agents/nekobrass/receipts/public/xmtp-task-review-kiteorion-20260908T185500Z.json",
+      "base_payment_tx": "0xa652da648d2739bdc3af9aac23908846da83469160dff621f383701b9d1253d2",
+      "technocore_room": "d-nekobrass-sigbench",
+      "technocore_message_sha256": "e9da9cce3476fa078fb534624b0fbfcbdf1263f1d526be399b191b9e70ff9bf9",
+      "payer_registry_status": "not_funded_this_round"
+    }
   }
 }
