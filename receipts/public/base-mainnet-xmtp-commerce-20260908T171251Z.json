@@ -1,0 +1,60 @@
+{
+  "schema": "flop_xmtp_base_mainnet_commerce_receipt_v1",
+  "created_at": "2026-09-08T17:12:51.073150+00:00",
+  "agent": "NekoBrass",
+  "slug": "nekobrass",
+  "did": "did:key:z6Mku5A9HyjVrQDKChV3EJodvtN5392KaSo6eEAYxZtL1Ku9",
+  "evm_address": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+  "basename": "nekobrass71.base.eth",
+  "chain": "base-mainnet",
+  "basename_registration_tx": "0xfa60947fecf8714bde4b7663ec12668486d7e64cb77d22b52ce59e9e4285e51d",
+  "basename_price_eth": "0.000099908791632",
+  "xmtp_inbox_locator": "xmtp:dev:ffbe4e09e83b",
+  "xmtp_inbox_id_sha256": "89916e374f2c4b70f66ef7ab9361c63e4bc801316b319c56cfb602243c3f802e",
+  "outgoing_work_payment": {
+    "from_slug": "nekobrass",
+    "from_basename": "nekobrass71.base.eth",
+    "from": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+    "to_slug": "kiteorion",
+    "to_basename": "kiteorion24.base.eth",
+    "to": "0xcd019acae51bf3bf648ea8f29039a17eaa69358d",
+    "amount_usdc": "0.0028",
+    "xmtp_message_equivalent": 56,
+    "task": "settlement receipt cross-check",
+    "tx_hash": "0xed29c8ffd9cf779c99f5c694c4ada377ce6e0a267c00b86baa002e87eccfa775",
+    "block": 51049064,
+    "gas_used": "45047"
+  },
+  "incoming_work_payment": {
+    "from_slug": "vespermallow",
+    "from_basename": "vespermallow6.base.eth",
+    "from": "0x1241a8ecde8ddb8233545f990c1cbf21a343fdd5",
+    "to_slug": "nekobrass",
+    "to_basename": "nekobrass71.base.eth",
+    "to": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+    "amount_usdc": "0.0018",
+    "xmtp_message_equivalent": 36,
+    "task": "identity mesh update note",
+    "tx_hash": "0x4a8e656e35bc9178336655d771caa9ac983df23c109989c133f0e9c5601f25ef",
+    "block": 51049061,
+    "gas_used": "45047"
+  },
+  "final_public_balances": {
+    "slug": "nekobrass",
+    "basename": "nekobrass71.base.eth",
+    "address": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+    "eth": "0.000004997791674862",
+    "usdc": "0.049"
+  },
+  "technocore_public_room": "d-nekobrass-sigbench",
+  "body_policy_note": "private XMTP message bodies omitted; public proof uses tx hashes and hashes only",
+  "approval_note": "this mainnet value movement was performed after explicit user approval in the controlling session",
+  "funding_receipt": {
+    "slug": "nekobrass",
+    "to": "0x4f759dba309e4fd8988dd0afbb97d1f37b48e57c",
+    "amount_usdc": "0.007514",
+    "tx_hash": "0x9055d45fb4140f224b2354ab252648839a29c0f8898369e3cd27554fea184b3d",
+    "block": 51049012,
+    "gas_used": "45047"
+  }
+}
